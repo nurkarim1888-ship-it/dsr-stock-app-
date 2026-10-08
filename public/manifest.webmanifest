@@ -1,20 +1,24 @@
 {
-  "short_name": "স্টক অ্যাপ",
-  "name": "স্টক ও ডিএসআর সেলস ম্যানেজমেন্ট",
+  "short_name": "DSR Stock",
+  "name": "DSR Stock Management",
+  "description": "ড্যাশবোর্ড স্টক ভ্যালু, সেলসম্যান বিতরণ ও ফেরত, ডিএসআর সামারি ও বাকি হিসাব",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/3144/3144456.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "https://cdn-icons-png.flaticon.com/512/3144/3144456.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "/",
   "background_color": "#ffffff",
   "theme_color": "#4f46e5",
-  "display": "standalone"
+  "display": "standalone",
+  "scope": "/"
 }
